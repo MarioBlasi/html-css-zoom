@@ -1,17 +1,17 @@
 *{
-    margin: 0.2rem;
+    margin: 0.1rem;
     padding: 0;
     box-sizing: border-box;
 }
 body {
     background-color:black;
-    color:#000000;
+  
 }
 
 .container { 
     display: flex;
     flex-direction: row;
-    background-color:black;
+   
     flex-wrap:nowrap;
     position: relative;
     margin:2px
@@ -20,9 +20,8 @@ body {
 .child {
     width: 300px;
     height: 180px;
-   
     text-align: center;
-    border: 2px solid rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
     background-image: url(/img/lorem-picsum.jpg);
 }
 .container { 
@@ -32,11 +31,15 @@ body {
 }
 .pinco-pallo{
     position: absolute;
-    bottom: 0;
-    border: 2px solid blue;
+    bottom: 5.5px;
+    /*border: 2px solid blue;*/
     width: 8rem;
     height: 2rem;
     color: white;
     font-size: 0.8rem;
     background-color: rgba(128, 128, 128, 0.562);
+    padding: 0.5rem;
+    padding-left: 3.5rem;
+    
+    
 }
