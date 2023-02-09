@@ -62,14 +62,18 @@ body {
     justify-content: space-between;
 }
 .sx{
-    width: 25%;
+    width: 30%;
     height: 5.5rem;
     text-align: center;
     border: 1px solid rgb(180, 15, 15);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
    
 }
 .center{
-    width: 50%;
+    width: 70%;
     height:5.5rem;
     text-align: center;
     border: 1px solid rgba(15, 81, 180, 0.829);
@@ -81,10 +85,29 @@ body {
     text-align: center;
     color: red;
     background-color: rgba(128, 128, 128, 0.959);
-    text-align: center;
+    
 }
 h3{
-    margin-top:2rem;
+    margin-top:25%;
+    font-size: medium;
 }
     
+.fa{
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+    text-align: center;
+}wsrgaw\hshb 4 \EARHDFJHNDFGJRSJTAZE34J5USTDRF JAE AE
+.fa-duotone{
+    background: white;
+    color:  rgb(35, 39, 42);
+    border: 1px solid  rgb(35, 39, 42);
+
+}
+.material-icons{
+    font-size: 30px
+}
+
 
