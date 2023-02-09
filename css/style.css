@@ -11,7 +11,6 @@ body {
 .container { 
     display: flex;
     flex-direction: row;
-   
     flex-wrap:nowrap;
     position: relative;
     margin:2px
@@ -23,12 +22,9 @@ body {
     text-align: center;
     border: 3px solid rgb(0, 0, 0);
     background-image: url(/img/lorem-picsum.jpg);
+   
 }
-.container { 
-    display: flex;
-    flex-direction: row;
-    
-}
+
 .pinco-pallo{
     position: absolute;
     bottom: 5.5px;
@@ -40,6 +36,55 @@ body {
     background-color: rgba(128, 128, 128, 0.562);
     padding: 0.5rem;
     padding-left: 3.5rem;
-    
+}
+.fa-microphone-alt-slash{
+}
+
+/* --------------------------footer--------------------------------*/
+
+#app_footer{
+    height: 6rem;
+    width:auto;
+    background-color: rgb(35, 39, 42);
+    margin-top: 1rem;
+    font-weight: bold;
+    color: white;
     
 }
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    position: relative;
+    border: 1px solid yellow;
+    height: 6rem;
+    width:auto;
+    justify-content: space-between;
+}
+.sx{
+    width: 25%;
+    height: 5.5rem;
+    text-align: center;
+    border: 1px solid rgb(180, 15, 15);
+   
+}
+.center{
+    width: 50%;
+    height:5.5rem;
+    text-align: center;
+    border: 1px solid rgba(15, 81, 180, 0.829);
+   
+}
+.dx{
+    width: 8%;
+    height: 5.5rem;
+    text-align: center;
+    color: red;
+    background-color: rgba(128, 128, 128, 0.959);
+    text-align: center;
+}
+h3{
+    margin-top:2rem;
+}
+    
+
