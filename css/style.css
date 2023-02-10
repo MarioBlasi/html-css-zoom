@@ -11,15 +11,10 @@ body{
     height: 50px;
     background-color: rgb(68,121,121);
 }
-
+/*----------------------------------header--------------*/
 #app_main{
     height: calc(100vh - 120px);
     background-color: black;
-}
-
-#app_footer{
-    height: 70px;
-    background-color: lightslategray;
 }
 
 :root{
@@ -37,6 +32,8 @@ body{
     border-width: 0;
     margin-top: 0.5rem;
 }
+
+/*----------------------------------main--------------*/
 .users{
     display: flex;
     flex-wrap: wrap;
@@ -52,7 +49,20 @@ body{
     position: absolute;
     left: 0;
     bottom: 0.25rem;
-    background-color: var(--z-dark-trasparent);
+    background-color: var(--z-dark);
     color: var(--z-light);
-    /*padding: 0.25rem;*/
+    padding: 0.25rem;
+}
+
+/*----------------------------------footer--------------*/
+#app_footer{
+    height: 70px;
+    background-color: var(--z-dark);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .icon{
+    display: flex;
+    flex-direction: column;
 }
