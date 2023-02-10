@@ -3,111 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    background-color:black;
-  
+
+#app_header{
+    height: 50px;
+    background-color: rgb(68,121,121);
 }
 
-.container { 
-    display: flex;
-    flex-direction: row;
-    flex-wrap:nowrap;
-    position: relative;
-    margin:2px
+#app_main{
+    height: calc(100vh - 120px);
+    background-color: black;
 }
-
-.child {
-    width: 300px;
-    height: 180px;
-    text-align: center;
-    border: 3px solid rgb(0, 0, 0);
-    background-image: url(/img/lorem-picsum.jpg);
-   
-}
-
-.pinco-pallo{
-    position: absolute;
-    bottom: 5.5px;
-    /*border: 2px solid blue;*/
-    width: 8rem;
-    height: 2rem;
-    color: white;
-    font-size: 0.8rem;
-    background-color: rgba(128, 128, 128, 0.562);
-    padding: 0.5rem;
-    padding-left: 3.5rem;
-}
-.fa-microphone-alt-slash{
-}
-
-/* --------------------------footer--------------------------------*/
 
 #app_footer{
-    height: 6rem;
-    width:auto;
-    background-color: rgb(35, 39, 42);
-    margin-top: 1rem;
-    font-weight: bold;
-    color: white;
-    
+    height: 70px;
+    background-color: lightslategray;
 }
-.flex-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap:nowrap;
-    position: relative;
-    border: 1px solid yellow;
-    height: 6rem;
-    width:auto;
-    justify-content: space-between;
-}
-.sx{
-    width: 30%;
-    height: 5.5rem;
-    text-align: center;
-    border: 1px solid rgb(180, 15, 15);
-    color: white;
-    justify-content: center;
-    align-items: center;
-    padding:10px;
-   
-}
-.center{
-    width: 70%;
-    height:5.5rem;
-    text-align: center;
-    border: 1px solid rgba(15, 81, 180, 0.829);
-   
-}
-.dx{
-    width: 8%;
-    height: 5.5rem;
-    text-align: center;
-    color: red;
-    background-color: rgba(128, 128, 128, 0.959);
-    
-}
-h3{
-    margin-top:25%;
-    font-size: medium;
-}
-    
-.fa{
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 20%;
-    text-align: center;
-}wsrgaw\hshb 4 \EARHDFJHNDFGJRSJTAZE34J5USTDRF JAE AE
-.fa-duotone{
-    background: white;
-    color:  rgb(35, 39, 42);
-    border: 1px solid  rgb(35, 39, 42);
-
-}
-.material-icons{
-    font-size: 30px
-}
-
-
