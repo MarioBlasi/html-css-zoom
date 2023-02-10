@@ -58,6 +58,7 @@ body{
 #app_footer{
     height: 70px;
     background-color: var(--z-dark);
+    color: var(--z-light);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,4 +66,12 @@ body{
 footer .icon{
     display: flex;
     flex-direction: column;
+}
+
+.footer-left,
+.footer-center,
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
