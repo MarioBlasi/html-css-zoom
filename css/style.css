@@ -7,16 +7,6 @@ body{
     background-color: var(--z-darker);
 }
 
-#app_header{
-    height: 50px;
-    background-color: rgb(68,121,121);
-}
-/*----------------------------------header--------------*/
-#app_main{
-    height: calc(100vh - 120px);
-    background-color: black;
-}
-
 :root{
     --z-dark:#4b4b4a;
     --z-darker:#222222;
@@ -24,6 +14,12 @@ body{
     --z-danger:red;
     --z-success:green;
 }
+/*----------------------------------header--------------*/
+#app_header{
+    height: 50px;
+    background-color: rgb(68,121,121);
+}
+
 .btn{
     background-color: var(--z-dark);
     color: var(--z-light);
@@ -31,9 +27,15 @@ body{
     border-radius: 0.5rem;
     border-width: 0;
     margin-top: 0.5rem;
+    
 }
 
 /*----------------------------------main--------------*/
+#app_main{
+    height: calc(100vh - 120px);
+    background-color: black;
+}
+
 .users{
     display: flex;
     flex-wrap: wrap;
@@ -65,7 +67,7 @@ body{
 }
 footer .icon{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items:center
 }
 
@@ -73,10 +75,17 @@ footer .icon{
 .footer-center,
 .footer-right{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 0.5rem;
 }
 
 footer .icon > span{
     font-size: 0.8rem;
+}
+.text-green{
+    color: green;
+}
+.footer-right{
+    color: red;
+    
 }
