@@ -66,6 +66,7 @@ body{
 footer .icon{
     display: flex;
     flex-direction: column;
+    align-items:center
 }
 
 .footer-left,
@@ -74,4 +75,8 @@ footer .icon{
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+}
+
+footer .icon > span{
+    font-size: 0.8rem;
 }
