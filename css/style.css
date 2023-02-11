@@ -17,19 +17,19 @@ body{
 /*----------------------------------header--------------*/
 #app_header{
     height: 50px;
-    background-color: rgb(68,121,121);
+    background-color: var(--z-darker);
     display: flex;
     justify-content:end;
 }
 
 .btn{
-    background-color: var(--z-dark);
+    background-color:var(--z-dark);
     color: var(--z-light);
     padding: 0.5rem 0.5rem;
     border-radius: 0.5rem;
     border-width: 0;
-    margin-top: 0.5rem;
-    
+    height: 1.8rem;
+
 }
 
 /*----------------------------------main--------------*/
@@ -53,15 +53,16 @@ body{
     position: absolute;
     left: 0;
     bottom: 0.25rem;
-    background-color: var(--z-dark);
+    background-color: rgba(128, 128, 128, 0.658);
     color: var(--z-light);
     padding: 0.25rem;
+    bottom: 13px;
 }
 
 /*----------------------------------footer--------------*/
 #app_footer{
     height: 70px;
-    background-color: var(--z-dark);
+    background-color: var(--z-darker);
     color: var(--z-light);
     display: flex;
     justify-content: space-between;
@@ -69,8 +70,8 @@ body{
 }
 footer .icon{
     display: flex;
-    flex-direction: row;
-    align-items:center
+    flex-direction: column;
+    text-align: center;
 }
 
 .footer-left,
@@ -87,7 +88,18 @@ footer .icon > span{
 .text-green{
     color: green;
 }
-.footer-right{
+h5{
     color: red;
+    background-color: var(--z-dark);
+    width: 6rem;
+    height: 3.5rem;
+    font-size: 11px;
+    line-height:3.5rem;
+   
+}
+.footer-right{
+    box-sizing:var(--z-dark);
     
+    
+  
 }
