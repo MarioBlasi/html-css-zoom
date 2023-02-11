@@ -18,6 +18,8 @@ body{
 #app_header{
     height: 50px;
     background-color: rgb(68,121,121);
+    display: flex;
+    justify-content:end;
 }
 
 .btn{
